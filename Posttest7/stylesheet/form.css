@@ -1,0 +1,88 @@
+body{
+	margin: auto;
+	font-family: sans-serif;
+}
+
+
+.latar{
+	width: 100%;
+	overflow: hidden;
+	background: #181818;
+}
+
+	.latar h2{
+		margin-left: 15px;
+		text-align: center;
+		color: crimson;
+	}
+
+table{
+	border-collapse: collapse;
+}
+
+table tr th{
+	background: #472D2D;
+	color: #FDEEDC;
+	border: 1px solid black;
+}
+
+table tr td{
+	background: #3D8361;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+input{
+	background: #171525;
+	padding: 10px;
+	color: crimson;
+	border-radius: 5px;
+	border: 1px solid crimson;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.atasan{
+	background: #740000;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #42855B;
+	text-align: center;
+	font-size: 10pt;
+	color: white; 
+	padding-top: 40px;
+	padding-bottom: 10px;
+	margin-top: 410px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.edit{
+	background: #09d382;
+	margin: 5px;
+	padding: 8px;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.hapus{
+	background: #d41010;
+	margin: 5px;
+	padding: 8px;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.tmbl{
+	background: black;
+	padding: 8px;
+	border-radius: 5px;
+	color: crimson;
+}

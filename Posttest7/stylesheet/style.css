@@ -1,0 +1,157 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: lightslategrey;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    height: 80px;
+    background-color: rgb(36, 17, 17);
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 1,5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname{
+    color: white;
+    font-weight: 700;
+}
+
+.secondname{
+    color: crimson;
+    font-weight: 400;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav li{
+    list-style: none;
+    padding: 15px;
+}
+
+.nav li a{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.nav li a:hover{
+    color:crimson;
+    transition: all 0.5s ease-in-out;
+}
+
+.active{
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+}
+
+.active:hover{
+    color: white !important;
+}
+
+.main{
+    /* display: flex; */
+    height: 100vh;
+}
+
+.footer{
+    background-color:#674c2f;
+    color: #fff;
+    height: 50px;
+    padding: 75px;
+}
+
+.footer1{
+    font-size: 30px;
+    float: top;
+    color: bisque;
+}
+
+.footer2 li{
+    padding-bottom: 20px;
+    float: right;
+    /* padding-right: 20px; */
+    padding-left: 20px;
+    list-style: circle;
+}
+
+
+.main button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+ .main button.terangg{
+    display: none;
+    background-color: #ddd;
+ }
+.main button.gelapp{
+    background-color: #674c2f;
+    color: #fff;
+}
+
+body.gelap {
+    background-color: black;
+}
+
+.gelap .main {
+    background-color: rgb(5, 4, 4);
+    color: white;
+}
+
+.gelap .main button.terangg {
+    display: inline;
+}
+.gelap .main button.gelapp {
+    display: none;
+}
+
+.contents{
+    margin-top: 100px;
+    height: 500px;
+    
+}
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+.section-title{
+    border-bottom: 2px solid #dee7ec;
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.footer button{
+    padding: 10px;
+    border: none;
+    float: bottom;
+    border-radius: 10px;
+}

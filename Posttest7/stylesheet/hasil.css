@@ -1,0 +1,43 @@
+body h1{
+    text-align: center;
+    background-color: teal;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+    color: honeydew;
+}
+.tengah{
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+    color: #674c2f;
+}
+.button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+ .button.terangg{
+    display: none;
+    background-color: #ddd;
+ }
+.button.gelapp{
+    background-color: #674c2f;
+    color: #fff;
+}
+
+body.gelap {
+    background-color: black;
+}
+
+.gelap {
+    background-color: rgb(5, 4, 4);
+    color: white;
+}
+
+.gelap .button.terangg {
+    display: inline;
+}
+.gelap .button.gelapp {
+    display: none;
+}

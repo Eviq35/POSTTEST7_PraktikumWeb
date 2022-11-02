@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EviqEsport</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="jQuery.js"></script>
+</head>
+<body>
+    <div class="header">
+        <nav class="wrap">
+            <div class="logo">
+                <div class="firstname">e-</div>
+                <div class="secondname">sport</div>
+            </div>
+            <ul class="nav">
+              <li><a href="artikel/read_artikel.php">Artikel</a></li>
+              <li><a href="form.php">About</a></li>
+              <li><a href="logout.php" class="active">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <h3>MODE</h3>
+        <br>
+        <button id="tombol">Switch</button>
+        <p id="mode" style="display: none;">
+            <button class="terangg" onclick="ubahWarna()">LIGHT</button>
+            <button class="gelapp" onclick="ubahWarna()">DARK</button>
+        </p>
+        <br>
+        <div class="contents">
+          <center>
+            <h3 class="section-title">E-Sport</h3>
+        
+            <div class="contents-item">
+              <img src="dota.jpg" alt="">
+              <p>Dota 2</p>
+            </div>
+            <div class="contents-item">
+              <img src="csgo.jpg" alt="">
+              <p>CS:GO</p>
+            </div>
+            <div class="contents-item">
+              <img src="mlbb.jpg" alt="">
+              <p>Mobile Legends</p>
+            </div>
+            <div class="contents-item">
+              <img src="PUBG.jpg" alt="">
+              <p>PUBGM</p>
+            </div>
+          </div>
+          </center>
+    </div>
+    
+    
+    
+    <div class="footer">
+        <div class="footer1">INFORMASI</div>
+        <button id="tmb-info">KLIK</button>
+        <div class="footer2">
+          <ul id="info" style="display:none;">
+            <li>2009106008</li>
+            <li>vigosa45@gmail.com</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+      </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
